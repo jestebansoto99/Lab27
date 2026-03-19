@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - StudyFlow</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">StudyFlow</a>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container mt-5">
+        <h2 class="mb-4">Mis tareas</h2>
+
+        <div class="row">
+
+            <!-- LISTA DE TAREAS -->
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">📘 Matemáticas - Taller 1 (Mañana)</li>
+                    <li class="list-group-item">📗 Inglés - Presentación (Viernes)</li>
+                    <li class="list-group-item">📕 Programación - Proyecto (Lunes)</li>
+                </ul>
+            </div>
+
+            <!-- FORMULARIO -->
+            <div class="col-md-6">
+                <h4>Agregar tarea</h4>
+
+                <form>
+                    <input type="text" class="form-control mb-2" placeholder="Nombre de la tarea">
+                    <input type="date" class="form-control mb-2">
+                    <button class="btn btn-primary w-100">Agregar</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>© 2026 StudyFlow</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
